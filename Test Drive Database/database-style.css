@@ -1,0 +1,44 @@
+body {
+    background-image: url(secret-top-stamp-spy.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+
+}
+h1{
+    
+    background-size: 30px;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    
+
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+form button {
+    margin-right: 0.9rem;
+    align-items: center;
+    margin-left: 0.9rem;
+    padding: 0.5rem;
+    float: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+.year-picker {
+    width: 100px;
+}

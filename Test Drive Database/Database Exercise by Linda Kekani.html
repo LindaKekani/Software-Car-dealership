@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Database</title>
+       <link rel="stylesheet" href="database-style.css">
+
+    </head>
+
+    <body>
+        <h1>Database for Audi Test Drive</h1>
+        <div class="spaced"></div>
+       
+
+        <p>Fill in the following details to book a test drive: </p>
+        <h2>Personal Information</h2>
+      <div class="column">
+        <form id="Add to form">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="name">Surname</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="phone">Age</label><br>
+            <input type="number" id="number" name="cellnumber"><br>
+            <label for="cellnumber">Cellnumber</label><br>
+            <input type="text" id="digitInput" name="cellnumber" maxlength="10" placeholder="Enter up to 10 digits"><br>
+            <label for="name">SA ID/Passport</label><br>
+            <input type="text" id="digitInput" name="ID" maxlength="13"><br>
+            <label for="Licence type">Code</label><br>
+            <input type="text" id="name" name="Licence"><br>
+        </form>
+      </div>
+        
+
+        <div class="clearfix">
+            <h2>Car Information</h2>
+
+            <label for="name">Model</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="year">Year</label><br>
+            <input type="number" id="year" class="year-picker" min="2009" max="2024"><br>
+            <button type="submit">Add</button>
+        </div>
+        
+    
+        <script src="database-js.js"></script>
+        
+    </body>
+</html>

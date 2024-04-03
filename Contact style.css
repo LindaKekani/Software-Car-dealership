@@ -1,0 +1,39 @@
+body{
+background-color: black;
+font-weight: bold;
+
+}
+
+h1 {
+    font-size: x-large;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    v
+  }
+  table td {
+    
+    border: 1px;
+    font-size: 24px;
+   
+ 
+    
+  }
+  textarea {
+    width: 100%;
+  
+  }
+  button {
+      
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    
+  }
+ 
